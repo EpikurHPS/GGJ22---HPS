@@ -15,11 +15,11 @@ D:/GGJ22---HPS/PhilosophaAlpha
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55272
+55331
 Successfully changed project path to: D:/GGJ22---HPS/PhilosophaAlpha
 D:/GGJ22---HPS/PhilosophaAlpha
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 74.13 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 76.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.5f1 (3737af19df53)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,125 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002252 seconds.
+Registered in 0.003198 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.04 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 72.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.208 seconds
+- Completed reload, in  1.205 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003332 seconds.
+Registered in 0.004229 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.885 seconds
+- Completed reload, in  0.883 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2824 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 103.5 MB.
 System memory in use after: 103.6 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3276.
-Total: 1.699200 ms (FindLiveObjects: 0.191100 ms CreateObjectMapping: 0.121500 ms MarkObjects: 1.324900 ms  DeleteObjects: 0.060800 ms)
+Total: 2.186200 ms (FindLiveObjects: 0.202500 ms CreateObjectMapping: 0.129100 ms MarkObjects: 1.771400 ms  DeleteObjects: 0.082100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/3D Assets/chair.fbx
-  artifactKey: Guid(809f0344f0e665e40b5943127cd23229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/chair.fbx using Guid(809f0344f0e665e40b5943127cd23229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6409e95b6e0b2f253c5dfc52ddc82a9a') in 0.117743 seconds 
+  path: Assets/3D Assets/table.fbx
+  artifactKey: Guid(093d449b3c0f88c46b54912ee01cae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/table.fbx using Guid(093d449b3c0f88c46b54912ee01cae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf6272a9c9b2e84ea6235f39d9d343f') in 0.137392 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 86.544502 seconds.
-  path: Assets/3D Assets/chair.fbx
-  artifactKey: Guid(809f0344f0e665e40b5943127cd23229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/chair.fbx using Guid(809f0344f0e665e40b5943127cd23229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbc2e89a253e7e558cd3131582f1cf4') in 0.016038 seconds 
+  Time since last request: 58.016889 seconds.
+  path: Assets/3D Assets/table.fbx
+  artifactKey: Guid(093d449b3c0f88c46b54912ee01cae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/table.fbx using Guid(093d449b3c0f88c46b54912ee01cae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2894a845dcbb3fa019028d7c59a14b20') in 0.022566 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.033943 seconds.
-  path: Assets/Materials/chair
-  artifactKey: Guid(0df510e2a6b824c4194f6212637b1d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/chair using Guid(0df510e2a6b824c4194f6212637b1d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400ff3f7def7ef711b6217b2f1cd5ce8') in 0.001527 seconds 
+  Time since last request: 44.944282 seconds.
+  path: Assets/Materials/table
+  artifactKey: Guid(b323d0961688c2540999d44947dac21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/table using Guid(b323d0961688c2540999d44947dac21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92153b605a4de6d9fa8342ade2b5bb5') in 0.001418 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.986839 seconds.
-  path: Assets/Materials/chair/m-chair.mat
-  artifactKey: Guid(daddfa55dd7605648a889deaaf7468da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/chair/m-chair.mat using Guid(daddfa55dd7605648a889deaaf7468da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fc8493a4093dfb92d1a441f9e6017c') in 0.008936 seconds 
+  Time since last request: 7.765374 seconds.
+  path: Assets/Materials/table/m-table-wood.mat
+  artifactKey: Guid(228443ef4273e9548926c00863fdfb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/table/m-table-wood.mat using Guid(228443ef4273e9548926c00863fdfb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ecc406287f996c2c0c60fd5064c924') in 0.013897 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.514050 seconds.
-  path: Assets/Materials/chair/chair_m-leather-chair_Normal.png
-  artifactKey: Guid(94593e6d88432a94a8b8e78590bff33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/chair/chair_m-leather-chair_Normal.png using Guid(94593e6d88432a94a8b8e78590bff33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c232dcaa68366636f6b8e746de6c368c') in 0.021368 seconds 
+  Time since last request: 5.504644 seconds.
+  path: Assets/Materials/table/m-table-metal.mat
+  artifactKey: Guid(c76aaffbe7e1fcf499cfcd06277b8881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/table/m-table-metal.mat using Guid(c76aaffbe7e1fcf499cfcd06277b8881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6075c6645a63d90234211cd07d59b22') in 0.013856 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.024808 seconds.
-  path: Assets/Materials/chair/chair_m-leather-chair_BaseColor.png
-  artifactKey: Guid(b701bae8c4f50d746a7ac7fa16c4ca7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/chair/chair_m-leather-chair_BaseColor.png using Guid(b701bae8c4f50d746a7ac7fa16c4ca7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63e68dc01041aa4f24a2707a6e72cd8') in 0.009342 seconds 
+  Time since last request: 15.505322 seconds.
+  path: Assets/Materials/table/table_m-table-metal_BaseColor.png
+  artifactKey: Guid(71de4ab4e6db0ab4fb4a7fb389fd8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/table/table_m-table-metal_BaseColor.png using Guid(71de4ab4e6db0ab4fb4a7fb389fd8b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebec84cd1d70e7fd21bdca38b0bb67c5') in 0.021739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Materials/table/table_m-table-wood_Normal.png
+  artifactKey: Guid(a406417bd9220dc4bae31e9448687a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/table/table_m-table-wood_Normal.png using Guid(a406417bd9220dc4bae31e9448687a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160b37fdbbebbb748766cfedd5e37da3') in 0.007314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Materials/table/table_m-table-wood_BaseColor.png
+  artifactKey: Guid(d84933592673c2b43967575804b5692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/table/table_m-table-wood_BaseColor.png using Guid(d84933592673c2b43967575804b5692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fa68031ab128e64db293007e5b3f42') in 0.010532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Materials/table/table_m-table-wood_Metallic.png
+  artifactKey: Guid(0770b935228d2be46abd9c26234a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/table/table_m-table-wood_Metallic.png using Guid(0770b935228d2be46abd9c26234a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b98d4d35b1d2903f04375ccf4692bc') in 0.024411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Materials/table/table_m-table-metal_Height.png
+  artifactKey: Guid(4b781b8f278e5b8459f74f9c9a02566a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/table/table_m-table-metal_Height.png using Guid(4b781b8f278e5b8459f74f9c9a02566a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a63824553a52dcf8e601426875c473') in 0.009552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Materials/table/table_m-table-metal_Metallic.png
+  artifactKey: Guid(8a8b802a2b06b39479c01b85ad4d4e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/table/table_m-table-metal_Metallic.png using Guid(8a8b802a2b06b39479c01b85ad4d4e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bdc204eda525bf7af8583096f336a9') in 0.010172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Materials/table/table_m-table-wood_Height.png
+  artifactKey: Guid(9df2926da7d546c45bda01b9a89ef542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/table/table_m-table-wood_Height.png using Guid(9df2926da7d546c45bda01b9a89ef542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ef64aab8251b413d3c5034d99429ab') in 0.011726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Materials/table/table_m-table-metal_Normal.png
+  artifactKey: Guid(5546414c8346ac14bac2e6f641690642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/table/table_m-table-metal_Normal.png using Guid(5546414c8346ac14bac2e6f641690642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bbfa15a125ef62e524c8a92d57332a') in 0.006813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.261689 seconds.
+  path: Assets/Materials/table/table_m-table-metal_Normal.png
+  artifactKey: Guid(5546414c8346ac14bac2e6f641690642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/table/table_m-table-metal_Normal.png using Guid(5546414c8346ac14bac2e6f641690642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd494b16573876452063690b3625da141') in 0.017915 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000201 seconds.
-  path: Assets/Materials/chair/chair_m-leather-chair_Metallic.png
-  artifactKey: Guid(8d3dea7361e71c840a454e394c816044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/chair/chair_m-leather-chair_Metallic.png using Guid(8d3dea7361e71c840a454e394c816044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025738f14374a66b187bb84d8945694e') in 0.009878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Materials/chair/chair_m-leather-chair_Height.png
-  artifactKey: Guid(c3093787aab7a8047bcce430a8006f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/chair/chair_m-leather-chair_Height.png using Guid(c3093787aab7a8047bcce430a8006f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92f90c2ae4c1bae51ef3b25ccfd9850') in 0.006655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.918689 seconds.
-  path: Assets/Materials/chair/chair_m-leather-chair_Normal.png
-  artifactKey: Guid(94593e6d88432a94a8b8e78590bff33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/chair/chair_m-leather-chair_Normal.png using Guid(94593e6d88432a94a8b8e78590bff33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac020cfe3755f1ea80a8c6e7b4236e5') in 0.016339 seconds 
+  path: Assets/Materials/table/table_m-table-wood_Normal.png
+  artifactKey: Guid(a406417bd9220dc4bae31e9448687a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/table/table_m-table-wood_Normal.png using Guid(a406417bd9220dc4bae31e9448687a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb6eacdde8d7f753327320de782e824') in 0.010100 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
