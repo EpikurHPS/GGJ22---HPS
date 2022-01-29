@@ -15,11 +15,11 @@ D:/GGJ22---HPS/PhilosophaAlpha
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55119
+55187
 Successfully changed project path to: D:/GGJ22---HPS/PhilosophaAlpha
 D:/GGJ22---HPS/PhilosophaAlpha
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.86 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 74.29 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.5f1 (3737af19df53)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,113 +35,131 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002096 seconds.
+Registered in 0.002046 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.94 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 71.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.232 seconds
+- Completed reload, in  1.203 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003713 seconds.
+Registered in 0.003291 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.872 seconds
+- Completed reload, in  0.875 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2824 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.4 MB.
+System memory in use before: 103.5 MB.
 System memory in use after: 103.6 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3276.
-Total: 1.704500 ms (FindLiveObjects: 0.196800 ms CreateObjectMapping: 0.129700 ms MarkObjects: 1.318800 ms  DeleteObjects: 0.058300 ms)
+Total: 1.674800 ms (FindLiveObjects: 0.199800 ms CreateObjectMapping: 0.118300 ms MarkObjects: 1.297400 ms  DeleteObjects: 0.058600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/3D Assets
-  artifactKey: Guid(9278e3e15e9ffa54fa971b52029be226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets using Guid(9278e3e15e9ffa54fa971b52029be226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac9775393ac3f89b735f54ea72547b4') in 0.003841 seconds 
+  path: Assets/3D Assets/wall.fbx
+  artifactKey: Guid(76a57311cbc25b84b835792085277bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/wall.fbx using Guid(76a57311cbc25b84b835792085277bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7294afa019ade25db3fc54c927de33f6') in 0.120578 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.660215 seconds.
-  path: Assets/3D Assets/floor.fbx
-  artifactKey: Guid(261aa4b02f5410f4ab66e7435889ae54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/floor.fbx using Guid(261aa4b02f5410f4ab66e7435889ae54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737934cb63148ca6ce14c7efdf4477b1') in 0.102833 seconds 
+  Time since last request: 91.740868 seconds.
+  path: Assets/Materials/wall
+  artifactKey: Guid(ee8234c8d15cafd4f8974ad16368f94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall using Guid(ee8234c8d15cafd4f8974ad16368f94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bf98d2fbb90e37525961e5f52675cc') in 0.001458 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.967182 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(2f20a8c55633fa945aa1e475ef30d735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(2f20a8c55633fa945aa1e475ef30d735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdab4e72e613b55c767324ce99e447c5') in 0.001666 seconds 
+  Time since last request: 7.813381 seconds.
+  path: Assets/Materials/wall/m-wall-bricks.mat
+  artifactKey: Guid(686a74a1fc870524f882ed94a6d2ad1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall/m-wall-bricks.mat using Guid(686a74a1fc870524f882ed94a6d2ad1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87eaecca21a757643e8c5b1987267363') in 0.009586 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.061237 seconds.
-  path: Assets/Materials/Plane 1.mat
-  artifactKey: Guid(41a9fe4808c07ad4489a78239e40eb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Plane 1.mat using Guid(41a9fe4808c07ad4489a78239e40eb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86534d6e586ef4a22cb338215125dfa') in 0.021709 seconds 
+  Time since last request: 7.113454 seconds.
+  path: Assets/Materials/wall/m-wall-wood.mat
+  artifactKey: Guid(a4676bc5c4575544f8d2897494e61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall/m-wall-wood.mat using Guid(a4676bc5c4575544f8d2897494e61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbafbee9bb172217c5e5ffa2adb23cd') in 0.015644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.406224 seconds.
+  path: Assets/Materials/wall/wall_m-wall-wood_Normal.png
+  artifactKey: Guid(004e85d26eeeb7b4280d649ef50704d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall/wall_m-wall-wood_Normal.png using Guid(004e85d26eeeb7b4280d649ef50704d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1e047c0c43feb6ae44277c5b3616f8') in 0.026581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026369 seconds.
+  path: Assets/Materials/wall/wall_m-wall-bricks_BaseColor.png
+  artifactKey: Guid(d6b095a7a068bdc49b92553071032f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall/wall_m-wall-bricks_BaseColor.png using Guid(d6b095a7a068bdc49b92553071032f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c290baeba5748e2666461cc988227a61') in 0.017549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Materials/wall/wall_m-wall-bricks_Normal.png
+  artifactKey: Guid(9894b2ada3e1a5f42bb0580d71ace6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall/wall_m-wall-bricks_Normal.png using Guid(9894b2ada3e1a5f42bb0580d71ace6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7709b66c871ca0af382fdff561606eaa') in 0.010227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Materials/wall/wall_m-wall-bricks_Metallic.png
+  artifactKey: Guid(8c4de49a3cca8884495427c2e948ed65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall/wall_m-wall-bricks_Metallic.png using Guid(8c4de49a3cca8884495427c2e948ed65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc98649f551dbfa1ff7950209c37de9f') in 0.012635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Materials/wall/wall_m-wall-bricks_Height.png
+  artifactKey: Guid(2d5a3f1275eeb0c469fd5bdd290d3a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall/wall_m-wall-bricks_Height.png using Guid(2d5a3f1275eeb0c469fd5bdd290d3a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8511f1f7324e520342909bac49719b') in 0.013617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Materials/wall/wall_m-wall-wood_Height.png
+  artifactKey: Guid(7c92da93c46b52c4a8e5840696c53397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall/wall_m-wall-wood_Height.png using Guid(7c92da93c46b52c4a8e5840696c53397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47ac8d1955c515b6696ef8869a9414c') in 0.020853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Materials/wall/wall_m-wall-wood_Metallic.png
+  artifactKey: Guid(bbe627581f72aae4abc182645c9c8044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall/wall_m-wall-wood_Metallic.png using Guid(bbe627581f72aae4abc182645c9c8044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969c438dce72c9afbc11227936b6093d') in 0.021690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Materials/wall/wall_m-wall-wood_BaseColor.png
+  artifactKey: Guid(84ac72f82c107af4281fa78e3a0a5b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall/wall_m-wall-wood_BaseColor.png using Guid(84ac72f82c107af4281fa78e3a0a5b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a2286092598987170d465b1b480e53') in 0.015821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.123858 seconds.
+  path: Assets/Materials/wall/wall_m-wall-bricks_Normal.png
+  artifactKey: Guid(9894b2ada3e1a5f42bb0580d71ace6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall/wall_m-wall-bricks_Normal.png using Guid(9894b2ada3e1a5f42bb0580d71ace6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229b8bcf18d1cdb4fe832292c62caf93') in 0.019530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Materials/wall/wall_m-wall-wood_Normal.png
+  artifactKey: Guid(004e85d26eeeb7b4280d649ef50704d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall/wall_m-wall-wood_Normal.png using Guid(004e85d26eeeb7b4280d649ef50704d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49208afaa1735a278c84d0f1bd13a409') in 0.010216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.666036 seconds.
+  path: Assets/Materials/wall/m-wall-bricks.mat
+  artifactKey: Guid(686a74a1fc870524f882ed94a6d2ad1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall/m-wall-bricks.mat using Guid(686a74a1fc870524f882ed94a6d2ad1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d635a17c593c668a22a06f98513e45') in 0.022369 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000151 seconds.
-  path: Assets/Materials/Plane.mat
-  artifactKey: Guid(901fb22f8798e8d458226f4894ef814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Plane.mat using Guid(901fb22f8798e8d458226f4894ef814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab746ce4dfdb25d20bee0df361b4dab') in 0.005813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.846894 seconds.
-  path: Assets/Materials/floor
-  artifactKey: Guid(cc45f2050de68204999b4012e655e344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/floor using Guid(cc45f2050de68204999b4012e655e344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b715f24a0e482ba164da472746a7011') in 0.001414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.675001 seconds.
-  path: Assets/Materials/floor/m-floor.mat
-  artifactKey: Guid(7af75a1362650cb41bf5f77901d96a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/floor/m-floor.mat using Guid(7af75a1362650cb41bf5f77901d96a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eee5e9e116f4fd54cc1954f8507d1e') in 0.007902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.063582 seconds.
-  path: Assets/Materials/floor/floor_DefaultMaterial_Normal.png
-  artifactKey: Guid(5a7e10942c26f894da05ecab4235c0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/floor/floor_DefaultMaterial_Normal.png using Guid(5a7e10942c26f894da05ecab4235c0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31745c68214094f8b9cdde1b12d4d7a5') in 0.028311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.021234 seconds.
-  path: Assets/Materials/floor/floor_DefaultMaterial_BaseColor.png
-  artifactKey: Guid(ae37228297cabaf4b9de85c82de225e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/floor/floor_DefaultMaterial_BaseColor.png using Guid(ae37228297cabaf4b9de85c82de225e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1168d154a9d7733146deae414c1cd7a') in 0.009949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Materials/floor/floor_DefaultMaterial_Metallic.png
-  artifactKey: Guid(b14fb8f2b06fd424aaaa0b23d9e9790b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/floor/floor_DefaultMaterial_Metallic.png using Guid(b14fb8f2b06fd424aaaa0b23d9e9790b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7d13639f1ea636a76f74ce48bb5842') in 0.007727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Materials/floor/floor_DefaultMaterial_Height.png
-  artifactKey: Guid(db4b01aec2a932440b65feef15626963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/floor/floor_DefaultMaterial_Height.png using Guid(db4b01aec2a932440b65feef15626963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04369e6347804a7b88a5676cbba12069') in 0.011778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.806315 seconds.
-  path: Assets/Materials/floor/floor_DefaultMaterial_Normal.png
-  artifactKey: Guid(5a7e10942c26f894da05ecab4235c0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/floor/floor_DefaultMaterial_Normal.png using Guid(5a7e10942c26f894da05ecab4235c0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe965d394da103ebbf8c96ce5549660c') in 0.022463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.425244 seconds.
-  path: Assets/Materials/floor/m-floor.mat
-  artifactKey: Guid(7af75a1362650cb41bf5f77901d96a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/floor/m-floor.mat using Guid(7af75a1362650cb41bf5f77901d96a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09decf52b825768a0b42ed74dc5c610f') in 0.020154 seconds 
+  path: Assets/Materials/wall/m-wall-wood.mat
+  artifactKey: Guid(a4676bc5c4575544f8d2897494e61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall/m-wall-wood.mat using Guid(a4676bc5c4575544f8d2897494e61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6019a4b0905389c174d8d5d58aa4f07d') in 0.015758 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
