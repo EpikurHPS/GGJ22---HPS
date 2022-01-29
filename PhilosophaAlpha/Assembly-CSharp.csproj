@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\TextWriter.cs" />
     <Compile Include="Assets\Scripts\ChoiceManager.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\SoundController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -323,6 +323,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/CameraMovement.cs"
 "Assets/Scripts/ChoiceManager.cs"
+"Assets/Scripts/SoundController.cs"
 "Assets/Scripts/TextWriter.cs"
 -langversion:8.0
 
