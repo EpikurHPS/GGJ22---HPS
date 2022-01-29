@@ -12,7 +12,6 @@ public class CameraMovement : MonoBehaviour
     public Image image;
 
     public float rotationSpeed = 5;
-    public Transform guy;
     public Camera cam;
 
     public bool chosenA;
@@ -55,7 +54,7 @@ public class CameraMovement : MonoBehaviour
                 if (Input.GetMouseButtonDown(0))
                 {
                     chosenA = true;
-                    Debug.Log("Click");
+                    Debug.Log("ClickA");
                 }
             }
             else if (hitinfo.collider.tag == "OptionB")
@@ -64,11 +63,12 @@ public class CameraMovement : MonoBehaviour
                 if (Input.GetMouseButtonDown(0))
                 {
                     chosenB = true;
-                    Debug.Log("Click");
+                    Debug.Log("ClickB");
                 }
             }
-            else if (hitinfo.collider.tag != "OptionA" || hitinfo.collider.tag != "OptionB")
+            else if (hitinfo.collider.tag == "OptionA" || hitinfo.collider.tag != "OptionB")
             {
+                
                 image.gameObject.SetActive(false);
             }
 
