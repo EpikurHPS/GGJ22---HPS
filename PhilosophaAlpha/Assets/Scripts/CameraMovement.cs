@@ -76,7 +76,7 @@ public class CameraMovement : MonoBehaviour
 
         if(chosenA == true || chosenB == true)
         {
-            Invoke("SetBoolBack", 2f);
+            Invoke("SetBoolBack", 2.5f);
         }
 
     }
