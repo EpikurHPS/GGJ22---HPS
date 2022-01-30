@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\ChoiceManager.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\SoundController.cs" />
+    <Compile Include="Assets\Scripts\TextCheck.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

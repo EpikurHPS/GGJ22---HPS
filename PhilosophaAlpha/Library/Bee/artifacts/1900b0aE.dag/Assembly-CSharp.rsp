@@ -324,6 +324,7 @@
 "Assets/Scripts/CameraMovement.cs"
 "Assets/Scripts/ChoiceManager.cs"
 "Assets/Scripts/SoundController.cs"
+"Assets/Scripts/TextCheck.cs"
 "Assets/Scripts/TextWriter.cs"
 -langversion:8.0
 

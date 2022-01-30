@@ -17,6 +17,10 @@ public class CameraMovement : MonoBehaviour
     public bool chosenA;
     public bool chosenB;
 
+    public int clickCounter;
+    public float counter;
+    public float goCounter;
+    public bool startCounter;
 
     private void Start()
     {
@@ -27,7 +31,15 @@ public class CameraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if(startCounter == true)
+        {
+            counter -= Time.deltaTime;
+        }
+        if(counter < 0)
+        {
+            counter = goCounter;
+            startCounter = false;
+        }
        
 
         yaw += speedH * Input.GetAxis("Mouse X");
@@ -51,8 +63,10 @@ public class CameraMovement : MonoBehaviour
             if(hitinfo.collider.tag == "OptionA")
             {
                 image.gameObject.SetActive(true);
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetMouseButtonDown(0) && startCounter == false)
                 {
+                    startCounter = true;
+                    clickCounter += 1;
                     chosenA = true;
                     Debug.Log("ClickA");
                 }
@@ -60,8 +74,10 @@ public class CameraMovement : MonoBehaviour
             else if (hitinfo.collider.tag == "OptionB")
             {
                 image.gameObject.SetActive(true);
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetMouseButtonDown(0) && startCounter == false)
                 {
+                    startCounter = true;
+                    clickCounter += 1;
                     chosenB = true;
                     Debug.Log("ClickB");
                 }
@@ -76,7 +92,7 @@ public class CameraMovement : MonoBehaviour
 
         if(chosenA == true || chosenB == true)
         {
-            Invoke("SetBoolBack", 2.5f);
+            Invoke("SetBoolBack", 1f);
         }
 
     }
