@@ -15,11 +15,11 @@ D:/GGJ22---HPS/PhilosophaAlpha
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58356
+59907
 Successfully changed project path to: D:/GGJ22---HPS/PhilosophaAlpha
 D:/GGJ22---HPS/PhilosophaAlpha
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.65 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 75.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.5f1 (3737af19df53)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,25 +35,25 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002062 seconds.
+Registered in 0.002070 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 73.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 73.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.190 seconds
+- Completed reload, in  1.195 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003365 seconds.
+Registered in 0.003158 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.859 seconds
+- Completed reload, in  0.867 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -65,95 +65,131 @@ System memory in use before: 103.6 MB.
 System memory in use after: 103.7 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3277.
-Total: 1.679200 ms (FindLiveObjects: 0.197900 ms CreateObjectMapping: 0.126400 ms MarkObjects: 1.296700 ms  DeleteObjects: 0.057600 ms)
+Total: 1.767200 ms (FindLiveObjects: 0.189600 ms CreateObjectMapping: 0.112700 ms MarkObjects: 1.401900 ms  DeleteObjects: 0.062400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/3D Assets/woofer.fbx
-  artifactKey: Guid(c8af2dcb741471440878425ee2b741e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/woofer.fbx using Guid(c8af2dcb741471440878425ee2b741e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b30298714f97160e3f92d7b7c5f85b8') in 0.269629 seconds 
+  path: Assets/3D Assets/cup.fbx
+  artifactKey: Guid(15debcc2c07d5bd4187577333a5b6e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/cup.fbx using Guid(15debcc2c07d5bd4187577333a5b6e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7413113c6d929bf7ce7adb4b0097d25b') in 0.123475 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.079098 seconds.
-  path: Assets/Materials/speaker
-  artifactKey: Guid(b44313b50dc1a984e8881e2f08bd98b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/speaker using Guid(b44313b50dc1a984e8881e2f08bd98b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194968078bc000d9decb65e9f906df51') in 0.001646 seconds 
+  Time since last request: 0.000211 seconds.
+  path: Assets/3D Assets/lamp.fbx
+  artifactKey: Guid(ee27c1fa389850a43aa51c9c4e4efa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/lamp.fbx using Guid(ee27c1fa389850a43aa51c9c4e4efa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f5d6cb646d8b2b705dad985b5a71f1') in 0.050812 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.099874 seconds.
-  path: Assets/Materials/speaker/Plastic011_1K_Color.png
-  artifactKey: Guid(8a2ea4d04b03c7d4f863d4f0a9ff600e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/speaker/Plastic011_1K_Color.png using Guid(8a2ea4d04b03c7d4f863d4f0a9ff600e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2808f73761d7961ac504f1aa5f1f8942') in 0.020108 seconds 
+  Time since last request: 0.000194 seconds.
+  path: Assets/3D Assets/botle.fbx
+  artifactKey: Guid(9172e1c3fc3716747be2082ead38690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/botle.fbx using Guid(9172e1c3fc3716747be2082ead38690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7693a35c16542071be7da025bf1b8ea5') in 0.013540 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Materials/speaker/Plastic011_1K_Normal.png
-  artifactKey: Guid(3b0cd77abd8d4dd488ffa80edca02ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/speaker/Plastic011_1K_Normal.png using Guid(3b0cd77abd8d4dd488ffa80edca02ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56a75513905a87fcb57cb1b2ccb9e14') in 0.008824 seconds 
+  Time since last request: 120.856674 seconds.
+  path: Assets/Materials/lamp
+  artifactKey: Guid(3b68df7f1716e434fb13547553319dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lamp using Guid(3b68df7f1716e434fb13547553319dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5dde4b608cab5dfbe0fa1f312bccbf') in 0.001361 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Materials/speaker/Plastic011_1K_Displacement.png
-  artifactKey: Guid(d621e208ee9978d4fb97944e6771d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/speaker/Plastic011_1K_Displacement.png using Guid(d621e208ee9978d4fb97944e6771d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972b329e7eea7cceef0b7e4f3248d58e') in 0.008870 seconds 
+  Time since last request: 9.108626 seconds.
+  path: Assets/Materials/lamp/lamp-base.mat
+  artifactKey: Guid(dfc964d716169774cae3f8d206345805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lamp/lamp-base.mat using Guid(dfc964d716169774cae3f8d206345805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9716ce69207811313604525f3193d542') in 0.010120 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.657500 seconds.
-  path: Assets/Materials/speaker/Metal028_2K_Color.jpg
-  artifactKey: Guid(122b0542390d107419bbe1be75523a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/speaker/Metal028_2K_Color.jpg using Guid(122b0542390d107419bbe1be75523a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6a155a6e466cd9063ed70b1f0a1d04') in 0.020981 seconds 
+  Time since last request: 26.243932 seconds.
+  path: Assets/Materials/lamp/lamp-schirm.mat
+  artifactKey: Guid(ef3541bd3fcf6dd45a364f0d2b7fd585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lamp/lamp-schirm.mat using Guid(ef3541bd3fcf6dd45a364f0d2b7fd585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a2a7b0bd833f720f2432e62a2a28fb') in 0.008401 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Materials/speaker/Metal028_2K_Displacement.jpg
-  artifactKey: Guid(5e6ace082b3a578448d94e7005476b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/speaker/Metal028_2K_Displacement.jpg using Guid(5e6ace082b3a578448d94e7005476b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21aa3d4d0ae284a4190a33ed383bc81b') in 0.012790 seconds 
+  Time since last request: 5.075529 seconds.
+  path: Assets/Materials/lamp/lamp-metal.mat
+  artifactKey: Guid(dfc964d716169774cae3f8d206345805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lamp/lamp-metal.mat using Guid(dfc964d716169774cae3f8d206345805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16fbc0a75ddc4e05392e606406ddd28') in 0.007347 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Materials/speaker/Metal028_2K_Normal.jpg
-  artifactKey: Guid(90da58986651546449e842975a9d9061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/speaker/Metal028_2K_Normal.jpg using Guid(90da58986651546449e842975a9d9061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971e52a6765898523643760c6ae83b41') in 0.010383 seconds 
+  Time since last request: 38.933267 seconds.
+  path: Assets/Materials/lamp/lamp_m-lamp-base_BaseColor.png
+  artifactKey: Guid(7c349800a5af46c46bb12ebc3cbb1b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lamp/lamp_m-lamp-base_BaseColor.png using Guid(7c349800a5af46c46bb12ebc3cbb1b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434e36bb4aa3b22ae0571881e004eca9') in 0.034950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Materials/lamp/lamp_m-lamp-base_Metallic.png
+  artifactKey: Guid(7440d9d8f97d38e46bfb628b3aebb562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lamp/lamp_m-lamp-base_Metallic.png using Guid(7440d9d8f97d38e46bfb628b3aebb562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac1d747c59b8941a823dd31c211965f') in 0.006374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Materials/lamp/lamp_m-lamp-base_Height.png
+  artifactKey: Guid(5d6aaebf53e89c54b9bfe219038ea192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lamp/lamp_m-lamp-base_Height.png using Guid(5d6aaebf53e89c54b9bfe219038ea192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180248660f5dc318acad445e8cf32903') in 0.011648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Materials/lamp/lamp_m-lamp-schirm_Normal.png
+  artifactKey: Guid(a66a7d2de17fd324490c8196cf101403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lamp/lamp_m-lamp-schirm_Normal.png using Guid(a66a7d2de17fd324490c8196cf101403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b3c3ec01aa096955712289ff3ba919') in 0.022806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Materials/lamp/lamp_m-lamp-schirm_Height.png
+  artifactKey: Guid(671d8e3e734edc548be734f1b7075bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lamp/lamp_m-lamp-schirm_Height.png using Guid(671d8e3e734edc548be734f1b7075bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052052457143d3875179769cd87086db') in 0.006271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Materials/lamp/lamp_m-lamp-base_Normal.png
+  artifactKey: Guid(0d37d9ef5d3105e4aaf20eeb77a7c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lamp/lamp_m-lamp-base_Normal.png using Guid(0d37d9ef5d3105e4aaf20eeb77a7c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8f3eeb74eda5f273b575fc7d0908f4') in 0.008667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Materials/lamp/lamp_m-lamp-schirm_BaseColor.png
+  artifactKey: Guid(19523525c454a5843aae4d365583b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lamp/lamp_m-lamp-schirm_BaseColor.png using Guid(19523525c454a5843aae4d365583b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f05f91bd6d08567f771834ae817a069') in 0.009387 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000217 seconds.
-  path: Assets/Materials/speaker/Metal028_2K_Metalness.jpg
-  artifactKey: Guid(dbf06af88df78754ea4fe9277f866825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/speaker/Metal028_2K_Metalness.jpg using Guid(dbf06af88df78754ea4fe9277f866825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b071881a3eb367f55cd55a1e55d868da') in 0.013558 seconds 
+  path: Assets/Materials/lamp/lamp_m-lamp-schirm_Metallic.png
+  artifactKey: Guid(05254a3038f8d604daad76b5462698bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lamp/lamp_m-lamp-schirm_Metallic.png using Guid(05254a3038f8d604daad76b5462698bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdba9701bdd92624e394d1def28cf15f') in 0.007773 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.610296 seconds.
-  path: Assets/Materials/speaker/m-speaker-metal.mat
-  artifactKey: Guid(7e97fc4391836da4e9f85c6fbfb62cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/speaker/m-speaker-metal.mat using Guid(7e97fc4391836da4e9f85c6fbfb62cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49705f5808eb16e34a48807ec8282b6d') in 0.009344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.828425 seconds.
-  path: Assets/Materials/speaker/m-speaker-plastico.mat
-  artifactKey: Guid(0d54882a780e58444b222658bf6fd310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/speaker/m-speaker-plastico.mat using Guid(0d54882a780e58444b222658bf6fd310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffb5baf6303c96a84253e28c953ddd4') in 0.011249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.531659 seconds.
-  path: Assets/Materials/speaker/Metal028_2K_Normal.jpg
-  artifactKey: Guid(90da58986651546449e842975a9d9061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/speaker/Metal028_2K_Normal.jpg using Guid(90da58986651546449e842975a9d9061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46e1d6280b7b25a5bcd5cc6146eb7ba') in 0.013812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Materials/speaker/Plastic011_1K_Normal.png
-  artifactKey: Guid(3b0cd77abd8d4dd488ffa80edca02ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/speaker/Plastic011_1K_Normal.png using Guid(3b0cd77abd8d4dd488ffa80edca02ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64314ecdeed4b33bee2bd6631af9062e') in 0.017020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 321.555408 seconds.
-  path: Assets/Materials/speaker/m-speaker-metal.mat
-  artifactKey: Guid(7e97fc4391836da4e9f85c6fbfb62cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/speaker/m-speaker-metal.mat using Guid(7e97fc4391836da4e9f85c6fbfb62cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4a6ca96faa64a30a2afca592903d28') in 0.027185 seconds 
+  Time since last request: 42.081013 seconds.
+  path: Assets/Materials/lamp/lamp_m-lamp-base_Normal.png
+  artifactKey: Guid(0d37d9ef5d3105e4aaf20eeb77a7c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lamp/lamp_m-lamp-base_Normal.png using Guid(0d37d9ef5d3105e4aaf20eeb77a7c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeeb9e985879caeac8ce7babe340465a') in 0.013357 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000162 seconds.
-  path: Assets/Materials/speaker/m-speaker-plastico.mat
-  artifactKey: Guid(0d54882a780e58444b222658bf6fd310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/speaker/m-speaker-plastico.mat using Guid(0d54882a780e58444b222658bf6fd310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d14fc894d971d0dd02eaec71253a9dd') in 0.042637 seconds 
+  path: Assets/Materials/lamp/lamp_m-lamp-schirm_Normal.png
+  artifactKey: Guid(a66a7d2de17fd324490c8196cf101403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lamp/lamp_m-lamp-schirm_Normal.png using Guid(a66a7d2de17fd324490c8196cf101403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbe3bca0d1bf54eed5bc7e951f605be') in 0.010158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.794468 seconds.
+  path: Assets/Materials/glass.mat
+  artifactKey: Guid(387d9c4ab6e4d654ea19cd4984c94159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glass.mat using Guid(387d9c4ab6e4d654ea19cd4984c94159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2ebfe02f8d137053d7eec7c9e04067') in 0.007352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.535752 seconds.
+  path: Assets/Materials/glass.mat
+  artifactKey: Guid(387d9c4ab6e4d654ea19cd4984c94159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glass.mat using Guid(387d9c4ab6e4d654ea19cd4984c94159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a207cc2d6c897bcb45fba7728222172') in 0.017542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.494739 seconds.
+  path: Assets/Materials/glass2.mat
+  artifactKey: Guid(36ba2d424900e1e48905160fc0c71c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glass2.mat using Guid(36ba2d424900e1e48905160fc0c71c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bace131ec2da811acef74d358566cf') in 0.009407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.781466 seconds.
+  path: Assets/Materials/glass2.mat
+  artifactKey: Guid(36ba2d424900e1e48905160fc0c71c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glass2.mat using Guid(36ba2d424900e1e48905160fc0c71c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69129c26f877449055383ce8b45501a0') in 0.007294 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
